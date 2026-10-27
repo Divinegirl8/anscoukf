@@ -96,12 +96,12 @@ const NavBar: React.FC = () => {
                         <span
                             className={`text-[20px] font-medium leading-[1.1] tracking-[0.01em] transition-colors duration-300 lg:text-[22px] ${nameClass}`}
                         >
-                            ANSCOUKF
+                            ANSCO UKF LLC
                         </span>
                         <span
                             className={`text-[11px] font-normal uppercase leading-[1.2] tracking-[0.06em] transition-colors duration-300 lg:text-[13px] ${taglineClass}`}
                         >
-                            Electronics Import &amp; Export
+                            Electronics Import , Export &amp; Supply
                         </span>
                     </span>
                 </a>

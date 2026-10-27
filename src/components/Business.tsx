@@ -46,7 +46,7 @@ const Business = () => {
     return (
         <section
             id="business"
-            className="bg-black px-5 py-14 sm:px-10 md:py-24 lg:px-16 lg:py-32"
+            className="bg-black px-5 py-10 sm:px-10  lg:px-16 "
         >
             {/* Same rainbow styles as About.tsx. Delete this block once they live in your global CSS. */}
             <style>{`

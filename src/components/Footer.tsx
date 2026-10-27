@@ -23,13 +23,13 @@ const Footer = () => {
                         <h2 className="text-2xl font-bold uppercase tracking-wide text-white sm:text-3xl lg:text-4xl">
                             {BUSINESS_NAME}
                         </h2>
-                        <p className="mt-3 text-base text-slate-300 sm:text-lg lg:text-xl">
+                        <p className="py-3 text-base text-slate-300 sm:text-lg lg:text-xl border-b border-white/10  ">
                             Electronics Import, Export &amp; Supply
                         </p>
                     </div>
 
                     {/* Contact details */}
-                    <address className="space-y-4 text-base not-italic text-gray-200 sm:text-lg lg:text-xl">
+                    <address className="space-y-4 text-base not-italic text-gray-200 sm:text-lg lg:text-xl ">
                         <p>
                             <span className="text-slate-400">Email: </span>
                             <a href={`mailto:${EMAIL}`} className={linkClass}>
