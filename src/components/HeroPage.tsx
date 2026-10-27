@@ -12,11 +12,10 @@ const HeroPage: React.FC = () => {
                 {/* Text */}
                 <div className="flex flex-col items-start gap-6 lg:gap-7">
                   
-<span className="hero-badge inline-flex h-9 items-center rounded-full border border-white/10 bg-white/10 px-4.5 text-[12px] font-medium uppercase tracking-[0.08em] text-[#D6E0EE] sm:text-sm">
-    <span className="badge-dot mr-2 h-1.5 w-1.5 rounded-full bg-[#7DD3FC]" />
-    Technology · Trade · Supply
-</span>
-
+                   <span className="hero-badge inline-flex h-9 items-center rounded-full border border-white/10 bg-white/10 px-4.5 text-[12px] font-medium uppercase tracking-[0.08em] sm:text-sm">
+                        <span className="badge-dot rainbow-bg mr-2 h-1.5 w-1.5 rounded-full" />
+                        <span className="rainbow-text">Technology · Trade · Supply</span>
+                    </span>
 
                     <h1 className="text-[36px] font-bold leading-[1.1] tracking-[-0.015em] text-white sm:text-5xl lg:text-[56px] xl:text-[68px] xl:leading-[1.08]">
                         Moving Technology.
