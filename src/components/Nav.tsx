@@ -101,8 +101,8 @@ const NavBar: React.FC = () => {
                         <span
                             className={`text-[11px] font-normal uppercase leading-[1.2] tracking-[0.06em] transition-colors duration-300 lg:text-[13px] ${taglineClass}`}
                         >
-                            Electronics Import , Export &amp; Supply
-                        </span>
+                                   Electronics Import, Export &amp; Supply  
+                         </span>
                     </span>
                 </a>
 

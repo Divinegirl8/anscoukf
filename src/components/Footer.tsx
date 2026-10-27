@@ -23,7 +23,7 @@ const Footer = () => {
                         <h2 className="text-2xl font-bold uppercase tracking-wide text-white sm:text-3xl lg:text-4xl">
                             {BUSINESS_NAME}
                         </h2>
-                        <p className="py-3 text-base text-slate-300 sm:text-lg lg:text-xl border-b border-white/10  ">
+                        <p className="py-3 text-base uppercase text-slate-300 sm:text-lg lg:text-xl border-b border-white/10  ">
                             Electronics Import, Export &amp; Supply
                         </p>
                     </div>

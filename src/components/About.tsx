@@ -2,7 +2,7 @@ interface AboutProps {
     companyName?: string;
 }
 
-const About = ({ companyName = "Anscoukf" }: AboutProps) => {
+const About = ({ companyName = "ANSCO UKF" }: AboutProps) => {
     return (
         <section
             id="about"
