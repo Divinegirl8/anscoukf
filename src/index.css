@@ -1,1 +1,53 @@
 @import "tailwindcss";
+
+
+@keyframes badge-enter {
+    from {
+      opacity: 0;
+      transform: translateY(14px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes badge-glow {
+    0%, 100% {
+      border-color: rgba(255, 255, 255, 0.1);
+      box-shadow: 0 0 0 rgba(125, 211, 252, 0);
+    }
+    50% {
+      border-color: rgba(125, 211, 252, 0.4);
+      box-shadow: 0 0 16px rgba(125, 211, 252, 0.12);
+    }
+  }
+  
+  @keyframes dot-pulse {
+    0%, 100% {
+      opacity: 0.6;
+      transform: scale(0.85);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.15);
+    }
+  }
+  
+  .hero-badge {
+    animation:
+      badge-enter 0.8s ease-out both,
+      badge-glow 3s ease-in-out 0.8s infinite;
+  }
+  
+  .badge-dot {
+    animation: dot-pulse 2s ease-in-out infinite;
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .hero-badge,
+    .badge-dot {
+      animation: none;
+    }
+  }
+  
