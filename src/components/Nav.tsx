@@ -4,8 +4,10 @@ type NavLink = { label: string; href: string };
 
 const NAV_LINKS: NavLink[] = [
     { label: "About", href: "#about" },
+    { label: "Business", href: "#business" },
     { label: "Products", href: "#products" },
-    { label: "Markets", href: "#markets" },
+    { label: "Approach", href: "#approach" },
+   
 ];
 
 const CONTACT_HREF = "#contact";

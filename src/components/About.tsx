@@ -8,11 +8,39 @@ const About = ({ companyName = "Anscoukf" }: AboutProps) => {
             id="about"
             className="bg-black px-5 py-14 sm:px-10 md:py-24 lg:px-16 lg:py-32"
         >
+            <style>{`
+                @keyframes rainbow-shift {
+                    0%   { background-position: 0% 50%; }
+                    100% { background-position: 200% 50%; }
+                }
+                .rainbow-text,
+                .rainbow-bg {
+                    background-image: linear-gradient(
+                        90deg,
+                        #ff4d4d, #ffa64d, #ffe14d, #4dff88,
+                        #4dc3ff, #8a6bff, #ff4dd2, #ff4d4d
+                    );
+                    background-size: 200% 100%;
+                    animation: rainbow-shift 4s linear infinite;
+                }
+                .rainbow-text {
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    color: transparent;
+                }
+                @media (prefers-reduced-motion: reduce) {
+                    .rainbow-text, .rainbow-bg { animation: none; }
+                }
+            `}</style>
             <div className="mx-auto max-w-7xl text-left">
                 {/* Eyebrow */}
                 <div className="flex items-center gap-3">
-                    <span className="h-px w-10 bg-slate-500/60" aria-hidden="true" />
-                    <span className="text-sm font-medium uppercase tracking-[0.2em] text-slate-400 sm:text-base">
+                    <span
+                        className="rainbow-bg h-px w-10"
+                        aria-hidden="true"
+                    />
+                    <span className="rainbow-text text-sm font-medium uppercase tracking-[0.2em] sm:text-base">
                         01 — About the Company
                     </span>
                 </div>
