@@ -30,7 +30,7 @@ const HeroPage: React.FC = () => {
 
                     <div className="mt-2 flex w-full flex-col gap-4 sm:w-auto sm:flex-row">
                         <a
-                            href="#about"
+                            href="#business"
                             className="flex h-14 items-center justify-center rounded-xl bg-white px-8 text-base font-medium text-[#0F2744] transition-colors hover:bg-[#E8EEF6] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#0B1D36] sm:text-[17px]"
                         >
                             Explore Our Business
