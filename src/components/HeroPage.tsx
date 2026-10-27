@@ -1,7 +1,6 @@
 import React from "react";
 
-// Put the hero photo at public/images/hero.jpg (or change this path)
-const HERO_IMAGE = "/images/hero.jpg";
+
 
 const HeroPage: React.FC = () => {
     return (
@@ -45,15 +44,25 @@ const HeroPage: React.FC = () => {
 
                 {/* Image */}
                 <div className="relative aspect-16/10 w-full overflow-hidden rounded-3xl shadow-[0_30px_60px_-20px_rgba(0,0,0,0.55)]">
-                    <img
+                    {/* <img
                         src={HERO_IMAGE}
                         alt="Smartphone, laptop and wireless earbuds on a dark blue background"
                         className="h-full w-full object-cover"
                         loading="eager"
+                    /> */}
+
+                    <video
+                        className="h-full w-full object-cover"
+                        src="src/assets/heropage/4113236-hd_1280_720_25fps.mp4"
+                        poster="/images/hero.jpg"
+                        autoPlay
+                        muted
+                        loop
+                        playsInline
+                        preload="auto"
+                        aria-label="Smartphone, laptop and wireless earbuds on a dark blue background"
                     />
-                    <span className="absolute bottom-4 left-4 flex h-10 items-center rounded-full bg-[#0B1D36]/60 px-5 text-base font-medium text-white backdrop-blur-sm sm:bottom-5 sm:left-5">
-                        vendorstore
-                    </span>
+                
                 </div>
             </div>
         </section>
