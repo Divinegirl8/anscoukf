@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 64" width="760" height="128">
+  <rect width="64" height="64" rx="14" fill="#0F2744"/>
+  <path d="M17 48 L32 15 L47 48" fill="none" stroke="#FFFFFF" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M22 38 H42" fill="none" stroke="#F29A4A" stroke-width="4.5" stroke-linecap="round"/>
+  <text x="84" y="44" font-family="Roboto, Arial, sans-serif" font-weight="700" font-size="36" letter-spacing="4" fill="#0F2744">ANSCOUKF</text>
+</svg>
