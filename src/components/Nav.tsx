@@ -10,7 +10,7 @@ const NAV_LINKS: NavLink[] = [
    
 ];
 
-const CONTACT_HREF = "#contact";
+const CONTACT_HREF = "#footer";
 
 type LogoMarkProps = { light: boolean };
 
