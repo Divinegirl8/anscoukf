@@ -1,3 +1,8 @@
+import electronicImage from "../assets/business/05_electronics_shipping_warehouse.png"
+import usedLaptopImage from "../assets/business/07_laptop_inventory_shelves.png"
+import accessoriesImage from "../assets/business/04_electronic_accessories.png"
+import exportImage from "../assets/business/03_export_image.jpeg"
+
 interface BusinessItem {
     title: string;
     description: string;
@@ -5,34 +10,34 @@ interface BusinessItem {
     alt: string;
 }
 
-// Swap the image paths for your real files (or imported assets)
+
 const items: BusinessItem[] = [
     {
         title: "Electronics Importation",
         description:
             "Importing mobile phones, laptops, and electronic accessories to support the company's product supply activities.",
-        image: "/images/electronics-importation.jpg",
+        image: electronicImage,
         alt: "Assorted smartphones arranged on a table",
     },
     {
         title: "Electronics Export",
         description:
             "Facilitating the export of technology products as part of the company's international trading operations.",
-        image: "/images/electronics-export.jpg",
+        image: exportImage,
         alt: "Warehouse with boxed electronics ready for export",
     },
     {
         title: "Used-Laptop Export for Refurbishment",
         description:
             "Exporting used laptops for refurbishment as part of the product lifecycle and equipment recovery process.",
-        image: "/images/laptop-refurbishment.jpg",
+        image: usedLaptopImage,
         alt: "Rows of used laptops on shelves awaiting refurbishment",
     },
     {
         title: "Technology Product Supply",
         description:
             "Supplying a range of electronic devices and accessories according to product availability and market requirements.",
-        image: "/images/product-supply.jpg",
+        image: accessoriesImage,
         alt: "Laptop, headphones and accessories on a clean surface",
     },
 ];
