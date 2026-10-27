@@ -53,7 +53,7 @@ const HeroPage: React.FC = () => {
 
                     <video
                         className="h-full w-full object-cover"
-                        src="src/assets/heropage/4113236-hd_1280_720_25fps.m4v"
+                        src="/4113236-hd_1280_720_25fps.m4v"
                         poster="/images/hero.jpg"
                         autoPlay
                         muted
